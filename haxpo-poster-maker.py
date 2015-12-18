@@ -106,7 +106,7 @@ def hello_world():
 
 
 if __name__ == '__main__':
-    f = open('/Users/chris/Documents/workspace/haxpo-poster-maker/data.tsv')
+    f = open('data.tsv')
     lines = f.readlines()
     for line in lines:
         data = []
